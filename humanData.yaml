@@ -1,0 +1,13 @@
+train: ../HumanData/train/images
+val: ../HumanData/valid/images
+test: ../HumanData/test/images
+
+nc: 2
+names: ['Human Detection -CCTV- - v10 2023-06-17 3-43pm', 'People Detection - v10 RF-DETR nano']
+
+roboflow:
+  workspace: humandetection-using-computer-vision
+  project: human-detection-immug
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/humandetection-using-computer-vision/human-detection-immug/dataset/2

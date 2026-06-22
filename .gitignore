@@ -1,1 +1,6 @@
 .venv/
+HumanData/
+WAID/
+dass.v1-dataset.yolo26/
+*.avi
+*.mp4

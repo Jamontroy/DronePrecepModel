@@ -1,0 +1,11 @@
+# wildlife.yaml — YOLOE-26 fine-tune config for WAID, all animals -> one class
+
+path: /home/exouser/Pmodel/WAID/WAID
+
+train: images/train
+val: images/valid
+test: images/test        # optional; remove if your copy has no test split
+
+nc: 1
+names:
+  0: wildlife
